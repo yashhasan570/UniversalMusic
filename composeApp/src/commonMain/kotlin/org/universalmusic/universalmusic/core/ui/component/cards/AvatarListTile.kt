@@ -1,0 +1,31 @@
+/* Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * SPDX-License-Identifier: AGPL-3.0-or-later
+ */
+package org.universalmusic.universalmusic.core.ui.component.cards
+
+import androidx.compose.foundation.shape.CircleShape
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.Modifier
+import org.universalmusic.universalmusic.resources.iconsax.Iconsax
+import org.universalmusic.universalmusic.resources.iconsax.User
+
+@Composable
+fun AvatarListTile(
+    title: String,
+    subtitle: String? = null,
+    imageURL: String? = null,
+    onClick: (() -> Unit)? = null,
+    modifier: Modifier = Modifier,
+    isBlacklisted: Boolean = false
+) {
+    PlayableListTile(
+        title = title,
+        subtitle = subtitle,
+        imageURL = imageURL,
+        onClick = onClick,
+        modifier = modifier,
+        imageShape = CircleShape,
+        placeholderIcon = Iconsax.User,
+        isBlacklisted = isBlacklisted
+    )
+}

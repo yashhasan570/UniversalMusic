@@ -1,0 +1,32 @@
+# Maintainer: Kingkor Roy Tirtho <krtirho@gmail.com>
+pkgname=universalmusic-bin
+pkgver={{version}}
+pkgrel={{pkgrel}}
+pkgdesc="Open source, plugin powered music streaming client"
+arch=(x86_64 aarch64)
+url="https://universalmusic.cc"
+license=('AGPL-3.0-or-later')
+# libvlc + plugins for playback (FFmpeg demux/decode, GnuTLS for HTTPS streams, PulseAudio/PipeWire output),
+# WebKitGTK 4.1 for the webview, and the X11/GL/ALSA libraries the AWT/Skiko natives link
+depends=(
+  'libvlc' 'vlc-plugins-base' 'vlc-plugin-ffmpeg' 'vlc-plugin-gnutls' 'vlc-plugin-pulse'
+  'webkit2gtk-4.1' 'gtk3' 'glib2' 'dbus' 'alsa-lib' 'libglvnd' 'fontconfig' 'freetype2'
+  'libx11' 'libxext' 'libxi' 'libxrender' 'libxtst' 'zlib'
+)
+provides=('universalmusic')
+conflicts=('universalmusic')
+options=('!strip' '!debug')
+source_x86_64=("https://github.com/team-universalmusic/universalmusic/releases/download/v${pkgver}/universalmusic-linux-${pkgver}-x86_64.tar.xz")
+source_aarch64=("https://github.com/team-universalmusic/universalmusic/releases/download/v${pkgver}/universalmusic-linux-${pkgver}-aarch64.tar.xz")
+sha256sums_x86_64=('{{artifacts.linuxX86_64.sha256}}')
+sha256sums_aarch64=('{{artifacts.linuxAarch64.sha256}}')
+
+package() {
+  cd "universalmusic-linux-${pkgver}-${CARCH}"
+
+  install -dm755 "${pkgdir}/opt" "${pkgdir}/usr/bin" "${pkgdir}/usr/share"
+  cp -a app "${pkgdir}/opt/universalmusic"
+  cp -a share/. "${pkgdir}/usr/share/"
+  ln -s /opt/universalmusic/universalmusic "${pkgdir}/usr/bin/universalmusic"
+  install -Dm644 LICENSE "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
+}

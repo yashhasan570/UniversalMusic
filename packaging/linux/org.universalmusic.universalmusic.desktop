@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Universal Music
+GenericName=Music Player
+Comment=Open source, plugin powered music streaming client
+Exec=universalmusic %U
+Icon=org.universalmusic.universalmusic
+Terminal=false
+Categories=AudioVideo;Audio;Music;Player;
+Keywords=music;streaming;player;audio;lyrics;playlist;
+StartupNotify=true
+StartupWMClass=org-universalmusic-universalmusic-MainKt
