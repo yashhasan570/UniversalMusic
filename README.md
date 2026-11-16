@@ -1,4 +1,5 @@
 <div align="center">
+  <img width="600" src="assets/branding/spotube_banner.png" alt="Universal Music Logo">
 
 A cross-platform extensible open-source music streaming platform.<br>
 Bring your own music metadata/playlist/audio-source with plugins created by community or by
