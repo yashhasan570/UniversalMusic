@@ -8,12 +8,9 @@ yourself. A small step towards the decentralized music streaming era!
 <a href="https://universalmusic.cc"><img alt="Visit the website" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/documentation/website_vector.svg"></a>
 <a href="https://discord.gg/uJ94vxB6vg"><img alt="Discord Server" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/social/discord-plural_vector.svg"></a>
 
-<a href="https://patreon.com/krtirtho"><img alt="Support me on Patron" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/patreon-singular_vector.svg"></a>
-<a href="https://www.buymeacoffee.com/krtirtho"><img alt="Buy me a Coffee" height="56" src="https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/donate/buymeacoffee-singular_vector.svg"></a>
 
 [![HackerNews](https://hackerbadge.vercel.app/api?id=39066136&type=dark)](https://news.ycombinator.com/item?id=39066136)
 
-<a href="https://opencollective.com/universalmusic"><img src="https://opencollective.com/universalmusic/donate/button.png?color=blue" alt="Donate to our Open Collective" height="45"></a>
 
 ---
 
@@ -231,3 +228,7 @@ Run [`universalmusic-release-binary.yml`](.github/workflows/universalmusic-relea
 Universal Music is open source and licensed under the [AGPL-3.0-or-later](/LICENSE) License.
 
 <div align="center"><h4>© Copyright Universal Music 2026</h4></div>
+
+## Contact
+
+Questions, problem reports or feedback? Reach us on Telegram: [@johnconstantine570](https://t.me/johnconstantine570)
