@@ -71,7 +71,7 @@ val isProductionBuild = providers.gradleProperty("production").map { it.toBoolea
         }
     }
 )
-val targetName = "Universal Music"
+val targetName = "UniversalMusic"
 val homePageUrl = "https://universalmusic.cc"
 val repositoryUrl = "https://github.com/team-universalmusic/universalmusic"
 val appVersionName = if (betaNumber != null) "$version-beta.$betaNumber" else version

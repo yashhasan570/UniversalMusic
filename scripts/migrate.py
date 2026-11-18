@@ -22,7 +22,7 @@ def sweep(t):
     t = t.replace("SPOTUBE_APP_DIR", "UNIVERSALMUSIC_APP_DIR")
     t = re.sub(r"Spotube(?=[A-Za-z])", "UniversalMusic", t)
     t = re.sub(r"spotube(?=[a-z0-9])", "universalmusic", t)
-    t = re.sub(r"\bSpotube\b", "Universal Music", t)
+    t = re.sub(r"\bSpotube\b", "UniversalMusic", t)
     t = re.sub(r"\bspotube\b", "universalmusic", t)
     return t
 
@@ -52,6 +52,9 @@ def main():
         nt = sweep(t)
         if p.suffix == ".md" or p.name == "strings.xml":
             nt = display(nt)
+        if str(p) == "composeApp/build.gradle.kts":
+            nt = nt.replace('appName = if (isNightly) "UniversalMusic Nightly" else "UniversalMusic"',
+                            'appName = if (isNightly) "Universal Music Nightly" else "Universal Music"')
         if nt != t:
             p.write_text(nt)
     for p in list(Path(".").rglob("*spotube*")) + list(Path(".").rglob("*Spotube*")):
