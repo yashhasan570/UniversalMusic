@@ -259,7 +259,7 @@ class DownloadManager(
             val downloadDir = resolveDownloadDir()
             fileSystem.createDirectories(downloadDir)
 
-            val tempDir = FileSystem.SYSTEM_TEMPORARY_DIRECTORY / "spotube_downloads".toPath()
+            val tempDir = FileSystem.SYSTEM_TEMPORARY_DIRECTORY / "universalmusic_downloads".toPath()
             fileSystem.createDirectories(tempDir)
 
             val (totalSize, supportsRanges) = probeUrl(item.id, url)
@@ -537,7 +537,7 @@ class DownloadManager(
 
     private fun cleanupTempFiles(id: String) {
         try {
-            val tempDir = FileSystem.SYSTEM_TEMPORARY_DIRECTORY / "spotube_downloads".toPath()
+            val tempDir = FileSystem.SYSTEM_TEMPORARY_DIRECTORY / "universalmusic_downloads".toPath()
             if (fileSystem.exists(tempDir)) {
                 fileSystem.list(tempDir).forEach { file ->
                     if (file.name.startsWith(id)) {

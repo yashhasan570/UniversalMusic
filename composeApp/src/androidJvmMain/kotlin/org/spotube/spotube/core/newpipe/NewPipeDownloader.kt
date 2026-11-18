@@ -99,7 +99,7 @@ class NewPipeDownloader(private val cookieJar: PersistentCookieJar) : Downloader
 class PersistentCookieJar(private val paths: Paths) : CookieJar {
     private val cookieStore = mutableMapOf<String, MutableList<Cookie>>()
     private val dataStore: DataStore<Preferences> = PreferenceDataStoreFactory.createWithPath(
-        produceFile = { "${paths.getApplicationDataDirPath()}/spotube_cookies.preferences_pb".toPath() }
+        produceFile = { "${paths.getApplicationDataDirPath()}/universalmusic_cookies.preferences_pb".toPath() }
     )
 
     init {

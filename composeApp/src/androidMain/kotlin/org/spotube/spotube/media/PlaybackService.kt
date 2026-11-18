@@ -85,7 +85,7 @@ class PlaybackService : MediaLibraryService(), KoinComponent {
                 .setChannelId(CHANNEL_ID)
                 .setNotificationId(NOTIFICATION_ID)
                 .build()
-                .apply { setSmallIcon(R.drawable.ic_stat_spotube) }
+                .apply { setSmallIcon(R.drawable.ic_stat_universalmusic) }
         )
 
         val sessionActivity = PendingIntent.getActivity(
@@ -101,7 +101,7 @@ class PlaybackService : MediaLibraryService(), KoinComponent {
         // loading it here would block the main thread (see createNotificationChannel).
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
             .setContentTitle("Universal Music")
-            .setSmallIcon(R.drawable.ic_stat_spotube)
+            .setSmallIcon(R.drawable.ic_stat_universalmusic)
             .setContentIntent(sessionActivity)
             .setOngoing(true)
             .build()
@@ -452,7 +452,7 @@ class PlaybackService : MediaLibraryService(), KoinComponent {
 
     companion object {
         private const val TAG = "PlaybackService"
-        private const val CHANNEL_ID = "spotube_playback"
+        private const val CHANNEL_ID = "universalmusic_playback"
         private const val NOTIFICATION_ID = 1
     }
 }

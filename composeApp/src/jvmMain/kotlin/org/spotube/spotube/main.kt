@@ -34,7 +34,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.rememberWindowState
 import org.jetbrains.compose.resources.painterResource
 import universalmusic.composeapp.generated.resources.Res
-import universalmusic.composeapp.generated.resources.spotube_logo
+import universalmusic.composeapp.generated.resources.universalmusic_logo
 import dev.nucleusframework.application.DecoratedWindow
 import dev.nucleusframework.application.NucleusBackend
 import dev.nucleusframework.application.nucleusApplication
@@ -230,7 +230,7 @@ fun main() {
                 }
             },
             title = "Universal Music",
-            icon = painterResource(Res.drawable.spotube_logo),
+            icon = painterResource(Res.drawable.universalmusic_logo),
             visible = isWindowVisible
         ) {
             CompositionLocalProvider(

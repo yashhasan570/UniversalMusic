@@ -25,7 +25,7 @@ fun BrandingPage(modifier: Modifier = Modifier, contentPadding: Dp = 32.dp) {
         modifier = modifier.fillMaxSize().verticalScroll(rememberScrollState()).padding(contentPadding),
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center) {
-        Image(painterResource(Res.drawable.spotube_logo), null, Modifier.size(88.dp))
+        Image(painterResource(Res.drawable.universalmusic_logo), null, Modifier.size(88.dp))
         Spacer(Modifier.height(24.dp))
         WelcomeWordmark(fontSize = 48.sp)
         Spacer(Modifier.height(24.dp))

@@ -47,7 +47,7 @@ sealed interface DiscoveryState {
 
 class DeviceDiscoveryService {
     companion object {
-        const val SERVICE_TYPE = "_spotube-ctrl._tcp"
+        const val SERVICE_TYPE = "_universalmusic-ctrl._tcp"
         const val TXT_DEVICE_ID = "deviceId"
     }
 

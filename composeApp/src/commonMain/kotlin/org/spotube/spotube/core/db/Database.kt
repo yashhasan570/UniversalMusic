@@ -49,37 +49,37 @@ class Database(val paths: Paths) {
     }
     val pluginsDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { "${paths.getApplicationDataDirPath()}/spotube_plugins.preferences_pb".toPath() }
+            produceFile = { "${paths.getApplicationDataDirPath()}/universalmusic_plugins.preferences_pb".toPath() }
         )
     }
 
     val matchedTracksDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { "${paths.getApplicationDataDirPath()}/spotube_matched_tracks.preferences_pb".toPath() }
+            produceFile = { "${paths.getApplicationDataDirPath()}/universalmusic_matched_tracks.preferences_pb".toPath() }
         )
     }
 
     val audioPlayerQueueDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { dropIfOversized("${paths.getApplicationDataDirPath()}/spotube_audio_player_queue.preferences_pb".toPath()) }
+            produceFile = { dropIfOversized("${paths.getApplicationDataDirPath()}/universalmusic_audio_player_queue.preferences_pb".toPath()) }
         )
     }
 
     val localMediaDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { dropIfOversized("${paths.getApplicationDataDirPath()}/spotube_local_media.preferences_pb".toPath()) }
+            produceFile = { dropIfOversized("${paths.getApplicationDataDirPath()}/universalmusic_local_media.preferences_pb".toPath()) }
         )
     }
 
     val blacklistDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { "${paths.getApplicationDataDirPath()}/spotube_blacklist.preferences_pb".toPath() }
+            produceFile = { "${paths.getApplicationDataDirPath()}/universalmusic_blacklist.preferences_pb".toPath() }
         )
     }
 
     val windowStateDataStore: DataStore<Preferences> by lazy {
         PreferenceDataStoreFactory.createWithPath(
-            produceFile = { "${paths.getApplicationDataDirPath()}/spotube_window.preferences_pb".toPath() }
+            produceFile = { "${paths.getApplicationDataDirPath()}/universalmusic_window.preferences_pb".toPath() }
         )
     }
 
@@ -103,12 +103,12 @@ class Database(val paths: Paths) {
         /** Preference files written by previous launches; their presence means an upgrade. */
         val EXISTING_INSTALL_PROBE_FILES = listOf(
             "universalmusic.preferences_pb",
-            "spotube_plugins.preferences_pb",
-            "spotube_matched_tracks.preferences_pb",
-            "spotube_audio_player_queue.preferences_pb",
-            "spotube_local_media.preferences_pb",
-            "spotube_blacklist.preferences_pb",
-            "spotube_cookies.preferences_pb")
+            "universalmusic_plugins.preferences_pb",
+            "universalmusic_matched_tracks.preferences_pb",
+            "universalmusic_audio_player_queue.preferences_pb",
+            "universalmusic_local_media.preferences_pb",
+            "universalmusic_blacklist.preferences_pb",
+            "universalmusic_cookies.preferences_pb")
     }
 }
 

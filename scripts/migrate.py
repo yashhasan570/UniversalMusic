@@ -33,6 +33,15 @@ def sweep(t):
     t = re.sub(r"spotube(?=[a-z0-9])", "universalmusic", t)
     t = re.sub(r"\bSpotube\b", "UniversalMusic", t)
     t = re.sub(r"\bspotube\b", "universalmusic", t)
+    # The bundle id becomes com.universalmusic.app, but code imports the generated
+    # VLC loader from the Kotlin package, so pin the vlcj-bundler output package:
+    t = t.replace('packageName = "$bundleId.core.generated"',
+                  'packageName = "org.universalmusic.universalmusic.core.generated"')
+    # The rules above miss "spotube" inside identifiers (followed by _ or ") and
+    # before non-ASCII text (Spotubeが, Spotube는). Catch the rest so resource
+    # renames and the code that references them stay in sync:
+    t = t.replace("Spotube", "UniversalMusic")
+    t = re.sub(r"spotube(?=[^a-zA-Z0-9])", "universalmusic", t)
     for a, b in PROTECT:
         t = t.replace(b, a)
     return t

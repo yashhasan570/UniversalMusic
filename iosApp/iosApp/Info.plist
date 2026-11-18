@@ -24,7 +24,7 @@
     <key>NSBonjourServices</key>
     <array>
     <string>_http._tcp</string>
-    <string>_spotube-ctrl._tcp</string>
+    <string>_universalmusic-ctrl._tcp</string>
     </array>
 </dict>
 </plist>
