@@ -29,8 +29,8 @@ import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.theme.MillenniumTheme
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.settings_local_media_folders_title
 import kotlin.test.AfterTest

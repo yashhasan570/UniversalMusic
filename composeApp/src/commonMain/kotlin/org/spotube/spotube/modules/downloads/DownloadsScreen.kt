@@ -3,7 +3,7 @@
  */
 package org.universalmusic.universalmusic.modules.downloads
 
-import org.universalmusic.millennium.composables.MillenniumStripedProgress
+import org.spotube.millennium.composables.MillenniumStripedProgress
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -38,14 +38,14 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxRefreshRight
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxTrash
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import universalmusic.composeapp.generated.resources.*
 
 @Composable

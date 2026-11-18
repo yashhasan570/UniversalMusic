@@ -40,8 +40,8 @@ import compose.icons.feathericons.Lock
 import compose.icons.feathericons.LogIn
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumIcon
 import universalmusic.composeapp.generated.resources.*
 
 /** Friendly "sign in first" state for screens whose metadata plugin needs an account. */

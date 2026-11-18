@@ -17,7 +17,7 @@
 
 package org.universalmusic.universalmusic.core.remote
 
-import org.universalmusic.millennium.composables.MillenniumAlertDialog
+import org.spotube.millennium.composables.MillenniumAlertDialog
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -33,8 +33,8 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import universalmusic.composeapp.generated.resources.Res

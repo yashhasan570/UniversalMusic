@@ -17,7 +17,7 @@
 
 package org.universalmusic.universalmusic.modules.plugin.components
 
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIcon
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.hoverable
@@ -28,19 +28,19 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.IntrinsicSize
-import org.universalmusic.millennium.theme.millenniumBevelBrush
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
 import universalmusic.composeapp.generated.resources.plugin_action_login
 import universalmusic.composeapp.generated.resources.plugin_action_logout
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.remember
 import androidx.compose.ui.semantics.Role
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumActionPointer
-import org.universalmusic.millennium.theme.millenniumSelectedGelBrush
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumActionPointer
+import org.spotube.millennium.theme.millenniumSelectedGelBrush
 import universalmusic.composeapp.generated.resources.plugin_ability_audio_caption
 import universalmusic.composeapp.generated.resources.plugin_ability_lyrics_caption
 import universalmusic.composeapp.generated.resources.plugin_ability_metadata_caption

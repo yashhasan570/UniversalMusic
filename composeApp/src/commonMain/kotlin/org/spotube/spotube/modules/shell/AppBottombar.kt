@@ -19,9 +19,9 @@ package org.universalmusic.universalmusic.modules.shell
 
 import com.composeunstyled.LocalTextStyle
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumBottomNavigationBar
-import org.universalmusic.millennium.composables.MillenniumBottomNavigationItem
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumBottomNavigationBar
+import org.spotube.millennium.composables.MillenniumBottomNavigationItem
+import org.spotube.millennium.composables.MillenniumIcon
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import org.universalmusic.universalmusic.NavigationItem

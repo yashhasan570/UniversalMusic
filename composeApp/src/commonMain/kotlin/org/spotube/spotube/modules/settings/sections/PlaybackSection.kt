@@ -18,7 +18,7 @@
 package org.universalmusic.universalmusic.modules.settings.sections
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIcon
 import androidx.compose.foundation.lazy.LazyListScope
 
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme

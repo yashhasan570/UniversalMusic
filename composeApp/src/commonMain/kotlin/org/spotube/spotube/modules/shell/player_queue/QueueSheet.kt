@@ -30,11 +30,11 @@ import com.composeunstyled.DrawerPlacement
 import com.composeunstyled.SheetDetent
 import com.composeunstyled.currentWindowWidthBreakpoint
 import com.composeunstyled.rememberModalBottomSheetState
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
-import org.universalmusic.millennium.composables.MillenniumDrawer
-import org.universalmusic.millennium.composables.MillenniumDrawerValue
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
-import org.universalmusic.millennium.composables.rememberMillenniumDrawerState
+import org.spotube.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.composables.MillenniumDrawer
+import org.spotube.millennium.composables.MillenniumDrawerValue
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.rememberMillenniumDrawerState
 
 private val SlidingSheetBreakpoint = 840.dp
 

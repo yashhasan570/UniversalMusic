@@ -18,7 +18,7 @@
 package org.universalmusic.universalmusic.modules.shell.player_queue
 
 
-import org.universalmusic.millennium.composables.MillenniumDropdownMenuItem
+import org.spotube.millennium.composables.MillenniumDropdownMenuItem
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
@@ -67,14 +67,14 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxTrash
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxUserRemove
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumDropdownMenu
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumListTile
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumTextField
-import org.universalmusic.millennium.composables.MillenniumTooltip
+import org.spotube.millennium.composables.MillenniumDropdownMenu
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumListTile
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumTooltip
 import sh.calvin.reorderable.ReorderableItem
 import sh.calvin.reorderable.rememberReorderableLazyListState
 import universalmusic.composeapp.generated.resources.Res

@@ -55,7 +55,7 @@ import androidx.compose.ui.unit.dp
 import com.composeunstyled.Text
 import org.universalmusic.plugin_interfaces.plugin_apis.lyrics.LyricsLine
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.MillenniumTheme
 
 private const val LYRICS_BLANK_LINE = "\u266A"
 

@@ -18,10 +18,10 @@
 package org.universalmusic.universalmusic.modules.settings.sections
 
 
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
 import androidx.compose.foundation.lazy.LazyListScope
 
 import com.composeunstyled.Text

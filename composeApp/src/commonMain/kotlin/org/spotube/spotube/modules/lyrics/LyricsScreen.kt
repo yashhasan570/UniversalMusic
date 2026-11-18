@@ -18,14 +18,14 @@
 package org.universalmusic.universalmusic.modules.lyrics
 
 
-import org.universalmusic.millennium.composables.MillenniumBarsLoader
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumSegmentedButton
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonDefaults
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonRow
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumBarsLoader
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumSegmentedButton
+import org.spotube.millennium.composables.MillenniumSegmentedButtonDefaults
+import org.spotube.millennium.composables.MillenniumSegmentedButtonRow
+import org.spotube.millennium.theme.MillenniumTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Arrangement
@@ -40,8 +40,8 @@ import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import coil3.compose.AsyncImage
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import androidx.compose.foundation.layout.ColumnScope
 import androidx.compose.foundation.layout.PaddingValues
 import androidx.compose.foundation.layout.widthIn

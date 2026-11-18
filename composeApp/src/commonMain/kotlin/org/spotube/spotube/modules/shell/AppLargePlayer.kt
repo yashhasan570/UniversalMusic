@@ -18,7 +18,7 @@
 package org.universalmusic.universalmusic.modules.shell
 
 
-import org.universalmusic.millennium.composables.MillenniumDropdownMenuItem
+import org.spotube.millennium.composables.MillenniumDropdownMenuItem
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxCd
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxMoon
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxInformation
@@ -96,12 +96,12 @@ import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
 import org.koin.core.parameter.parametersOf
-import org.universalmusic.millennium.composables.MillenniumDropdownMenu
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumSlider
+import org.spotube.millennium.composables.MillenniumDropdownMenu
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumSlider
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.player_go_to_album
 import universalmusic.composeapp.generated.resources.player_sleep_timer

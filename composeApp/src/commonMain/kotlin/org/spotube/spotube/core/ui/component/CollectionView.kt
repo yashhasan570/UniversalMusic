@@ -49,9 +49,9 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxPauseCircle
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxPlayCircle2
 import org.jetbrains.compose.resources.DrawableResource
 import org.jetbrains.compose.resources.painterResource
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
 import org.jetbrains.compose.resources.stringResource
 import universalmusic.composeapp.generated.resources.*
 

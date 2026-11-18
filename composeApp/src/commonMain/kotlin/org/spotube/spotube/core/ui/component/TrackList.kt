@@ -20,7 +20,7 @@ package org.universalmusic.universalmusic.core.ui.component
 
 
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.animation.AnimatedContent
 import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
@@ -52,15 +52,15 @@ import androidx.compose.foundation.lazy.LazyListState
 import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.foundation.text.input.rememberTextFieldState
 import androidx.compose.ui.state.ToggleableState
-import org.universalmusic.millennium.composables.MillenniumCard
-import org.universalmusic.millennium.composables.MillenniumCheckbox
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumListTile
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumTextField
-import org.universalmusic.millennium.composables.MillenniumTriStateCheckbox
+import org.spotube.millennium.composables.MillenniumCard
+import org.spotube.millennium.composables.MillenniumCheckbox
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumListTile
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumTriStateCheckbox
 
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import com.composeunstyled.Text

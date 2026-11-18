@@ -35,12 +35,12 @@ import org.universalmusic.universalmusic.modules.shell.FloatingPlayerBottomBleed
 import org.universalmusic.universalmusic.modules.shell.PlayerUiState
 import org.universalmusic.universalmusic.modules.shell.AppBottombar
 import org.universalmusic.universalmusic.modules.shell.CompactPlayerOverlay
-import org.universalmusic.millennium.composables.MillenniumTopAppBar
+import org.spotube.millennium.composables.MillenniumTopAppBar
 import org.jetbrains.compose.resources.stringResource
 import com.composeunstyled.Text
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.jam_screen_title
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.MillenniumTheme
 import java.io.File
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -18,11 +18,11 @@
 package org.universalmusic.universalmusic.core.ui.component
 
 
-import org.universalmusic.millennium.composables.MillenniumDialogHeader
-import org.universalmusic.millennium.composables.MillenniumDialogTitle
-import org.universalmusic.millennium.composables.MillenniumDialogClose
-import org.universalmusic.millennium.composables.MillenniumDialogBody
-import org.universalmusic.millennium.composables.MillenniumDialogFooter
+import org.spotube.millennium.composables.MillenniumDialogHeader
+import org.spotube.millennium.composables.MillenniumDialogTitle
+import org.spotube.millennium.composables.MillenniumDialogClose
+import org.spotube.millennium.composables.MillenniumDialogBody
+import org.spotube.millennium.composables.MillenniumDialogFooter
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -33,13 +33,13 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumCard
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumCard
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.text.selection.SelectionContainer

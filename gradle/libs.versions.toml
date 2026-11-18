@@ -102,7 +102,7 @@ ktor-server-cio = { module = "io.ktor:ktor-server-cio", version.ref = "ktor" }
 ktor-server-core = { module = "io.ktor:ktor-server-core", version.ref = "ktor" }
 ktor-server-websockets = { module = "io.ktor:ktor-server-websockets", version.ref = "ktor" }
 ktor-client-websockets = { module = "io.ktor:ktor-client-websockets", version.ref = "ktor" }
-millennium = { module = "org.universalmusic.millennium:millennium", version.ref = "millennium" }
+millennium = { module = "org.spotube.millennium:millennium", version.ref = "millennium" }
 multiplatform-markdown-renderer = { module = "com.mikepenz:multiplatform-markdown-renderer", version.ref = "multiplatformMarkdownRenderer" }
 multiplatform-markdown-renderer-m3 = { module = "com.mikepenz:multiplatform-markdown-renderer-m3", version.ref = "multiplatformMarkdownRenderer" }
 murmurhash = { module = "com.goncalossilva:murmurhash", version.ref = "murmurhash" }
@@ -163,8 +163,8 @@ kotlinSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", versio
 jetbrainsKotlinJvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 androidKotlinMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 zipline-gradle-plugin = { id = "app.cash.zipline", version.ref = "ziplineVersion" }
-spotubeGradle = { id = "org.universalmusic.gradle-plugin", version.ref = "universalmusic-gradle" }
-vlcjBundler = { id = "org.universalmusic.vlcj-bundler", version.ref = "vlcjBundler" }
+spotubeGradle = { id = "org.spotube.gradle-plugin", version.ref = "universalmusic-gradle" }
+vlcjBundler = { id = "org.spotube.vlcj-bundler", version.ref = "vlcjBundler" }
 uniffi = { id = "dev.gobley.uniffi", version.ref = "uniffi" }
 cargo = { id = "dev.gobley.cargo", version.ref = "uniffi" }
 mokkery = { id = "dev.mokkery", version.ref = "mokkery" }

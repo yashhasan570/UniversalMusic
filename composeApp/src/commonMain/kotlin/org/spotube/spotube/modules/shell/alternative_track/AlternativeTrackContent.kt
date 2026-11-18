@@ -19,9 +19,9 @@ package org.universalmusic.universalmusic.modules.shell.alternative_track
 
 
 import org.universalmusic.universalmusic.core.ui.misc.itemsWithUniqueKeys
-import org.universalmusic.millennium.composables.MillenniumSpokeSpinner
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumListTile
+import org.spotube.millennium.composables.MillenniumSpokeSpinner
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumListTile
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

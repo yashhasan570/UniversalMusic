@@ -18,12 +18,12 @@
 package org.universalmusic.universalmusic.modules.home
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.theme.MillenniumTheme
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
@@ -41,7 +41,7 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumPullToRefreshBox
+import org.spotube.millennium.composables.MillenniumPullToRefreshBox
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -93,7 +93,7 @@ import universalmusic.composeapp.generated.resources.jam_screen_title
 import kotlinx.coroutines.flow.distinctUntilChanged
 import kotlinx.coroutines.flow.map
 import org.jetbrains.compose.resources.Font
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxMirrorScreenRegular
 import universalmusic.composeapp.generated.resources.cookie_regular
 

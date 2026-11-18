@@ -18,9 +18,9 @@
 package org.universalmusic.universalmusic.core.ui.component
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.animation.core.tween
 import androidx.compose.foundation.background
@@ -42,7 +42,7 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import com.composeunstyled.Text
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableIntStateOf

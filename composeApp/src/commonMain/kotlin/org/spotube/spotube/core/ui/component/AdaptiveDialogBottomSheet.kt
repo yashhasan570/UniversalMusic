@@ -18,21 +18,21 @@
 package org.universalmusic.universalmusic.core.ui.component
 
 
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumDialogBody
-import org.universalmusic.millennium.composables.MillenniumDialogClose
-import org.universalmusic.millennium.composables.MillenniumDialogFooter
-import org.universalmusic.millennium.composables.MillenniumDialogHeader
-import org.universalmusic.millennium.composables.MillenniumDialogTitle
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumDialogBody
+import org.spotube.millennium.composables.MillenniumDialogClose
+import org.spotube.millennium.composables.MillenniumDialogFooter
+import org.spotube.millennium.composables.MillenniumDialogHeader
+import org.spotube.millennium.composables.MillenniumDialogTitle
 import androidx.compose.foundation.layout.heightIn
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
-import org.universalmusic.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.MillenniumSeparator
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -47,7 +47,7 @@ import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.ui.unit.dp
 import org.universalmusic.universalmusic.resources.iconsax.FluentDismiss
 import org.universalmusic.universalmusic.resources.iconsax.Iconsax

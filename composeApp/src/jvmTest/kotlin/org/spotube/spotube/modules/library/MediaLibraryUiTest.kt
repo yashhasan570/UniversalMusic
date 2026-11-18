@@ -46,8 +46,8 @@ import org.universalmusic.universalmusic.modules.library.local_tracks.media.Loca
 import org.universalmusic.universalmusic.modules.settings.Theme
 import org.universalmusic.universalmusic.modules.settings.UserSettings
 import java.io.File
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.composables.MillenniumTopAppBar
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumTopAppBar
 import org.jetbrains.compose.resources.stringResource
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.media_artist

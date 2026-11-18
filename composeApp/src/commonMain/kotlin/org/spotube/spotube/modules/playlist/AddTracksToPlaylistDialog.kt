@@ -20,15 +20,15 @@ package org.universalmusic.universalmusic.modules.playlist
 
 import org.universalmusic.universalmusic.core.ui.misc.itemsWithUniqueKeys
 import org.universalmusic.universalmusic.core.ui.component.AdaptiveDialogBottomSheet
-import org.universalmusic.millennium.composables.MillenniumCircularProgress
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
-import org.universalmusic.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumCircularProgress
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.MillenniumTextField
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -47,7 +47,7 @@ import com.composeunstyled.SheetDetent
 import com.composeunstyled.Text
 import com.composeunstyled.rememberModalBottomSheetState
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Alignment

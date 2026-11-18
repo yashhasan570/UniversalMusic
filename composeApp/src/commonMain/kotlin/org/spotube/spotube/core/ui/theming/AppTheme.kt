@@ -35,18 +35,18 @@ import androidx.compose.ui.unit.sp
 
 import org.universalmusic.universalmusic.modules.settings.Theme
 import org.universalmusic.universalmusic.modules.settings.UserSettings
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheetTheme
-import org.universalmusic.millennium.composables.MillenniumTooltipHost
-import org.universalmusic.millennium.composables.MillenniumTopAppBarTheme
-import org.universalmusic.millennium.composables.MillenniumTopAppBarThemeProperties
-import org.universalmusic.millennium.composables.defaultMillenniumModalBottomSheetTheme
-import org.universalmusic.millennium.composables.defaultMillenniumTopAppBarTheme
-import org.universalmusic.millennium.theme.MillenniumColors
-import org.universalmusic.millennium.theme.MillenniumDarkThemeComponents
-import org.universalmusic.millennium.theme.MillenniumLightThemeComponents
-import org.universalmusic.millennium.theme.MillenniumPalette
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.MillenniumThemeConfig
+import org.spotube.millennium.composables.MillenniumModalBottomSheetTheme
+import org.spotube.millennium.composables.MillenniumTooltipHost
+import org.spotube.millennium.composables.MillenniumTopAppBarTheme
+import org.spotube.millennium.composables.MillenniumTopAppBarThemeProperties
+import org.spotube.millennium.composables.defaultMillenniumModalBottomSheetTheme
+import org.spotube.millennium.composables.defaultMillenniumTopAppBarTheme
+import org.spotube.millennium.theme.MillenniumColors
+import org.spotube.millennium.theme.MillenniumDarkThemeComponents
+import org.spotube.millennium.theme.MillenniumLightThemeComponents
+import org.spotube.millennium.theme.MillenniumPalette
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.MillenniumThemeConfig
 
 /**
  * Semantic color roles used across the app, resolved from the active Millennium palette.
@@ -178,7 +178,7 @@ val AppDefaultShapes = AppShapes(
 )
 
 val LocalAppColors =
-    staticCompositionLocalOf { appColorsFrom(org.universalmusic.millennium.theme.MillenniumLightColors) }
+    staticCompositionLocalOf { appColorsFrom(org.spotube.millennium.theme.MillenniumLightColors) }
 val LocalAppTypography = staticCompositionLocalOf { AppDefaultTypography }
 val LocalAppShapes = staticCompositionLocalOf { AppDefaultShapes }
 
@@ -248,11 +248,11 @@ fun UniversalMusicTheme(
 /** Library default is 24dp padding + 16dp spacing, which is far too roomy on phones. */
 private fun compactModalBottomSheetTheme(): MillenniumModalBottomSheetTheme {
     val padding = PaddingValues(start = 16.dp, end = 16.dp, top = 10.dp, bottom = 8.dp)
-    fun org.universalmusic.millennium.composables.MillenniumModalBottomSheetThemeProperties.compact() =
+    fun org.spotube.millennium.composables.MillenniumModalBottomSheetThemeProperties.compact() =
         copy(contentPadding = padding, contentSpacing = 8.dp)
     val states = defaultMillenniumModalBottomSheetTheme().states
     return MillenniumModalBottomSheetTheme(
-        states = org.universalmusic.millennium.theme.MillenniumControlStateProperty(
+        states = org.spotube.millennium.theme.MillenniumControlStateProperty(
             default = states.default.compact(),
             hovered = states.hovered.compact(),
             focused = states.focused.compact(),

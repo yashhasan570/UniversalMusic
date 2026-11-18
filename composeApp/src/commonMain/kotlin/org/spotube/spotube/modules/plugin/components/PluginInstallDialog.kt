@@ -17,7 +17,7 @@
 
 package org.universalmusic.universalmusic.modules.plugin.components
 
-import org.universalmusic.millennium.composables.MillenniumCircularProgress
+import org.spotube.millennium.composables.MillenniumCircularProgress
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -56,12 +56,12 @@ import org.universalmusic.universalmusic.modules.plugin.GitHubRepo
 import org.universalmusic.universalmusic.resources.iconsax.Iconsax
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxArrowDown4
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumDropdownMenu
-import org.universalmusic.millennium.composables.MillenniumDropdownMenuContent
-import org.universalmusic.millennium.composables.MillenniumDropdownMenuItem
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDropdownMenu
+import org.spotube.millennium.composables.MillenniumDropdownMenuContent
+import org.spotube.millennium.composables.MillenniumDropdownMenuItem
+import org.spotube.millennium.composables.MillenniumIcon
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.common_cancel
 import universalmusic.composeapp.generated.resources.plugin_action_install

@@ -20,7 +20,7 @@ package org.universalmusic.universalmusic.core.ui.component
 import androidx.compose.foundation.layout.RowScope
 import androidx.compose.foundation.layout.WindowInsets
 import androidx.compose.foundation.layout.statusBars
-import org.universalmusic.millennium.composables.MillenniumTopAppBar
+import org.spotube.millennium.composables.MillenniumTopAppBar
 import androidx.compose.ui.graphics.Color
 import androidx.compose.runtime.Composable
 

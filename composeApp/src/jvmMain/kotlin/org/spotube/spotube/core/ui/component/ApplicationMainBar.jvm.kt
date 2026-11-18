@@ -18,9 +18,9 @@
 package org.universalmusic.universalmusic.core.ui.component
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -34,7 +34,7 @@ import androidx.compose.foundation.layout.width
 import androidx.compose.ui.graphics.SolidColor
 import androidx.compose.foundation.window.WindowDraggableArea
 
-import org.universalmusic.millennium.composables.MillenniumTopAppBar
+import org.spotube.millennium.composables.MillenniumTopAppBar
 import androidx.compose.ui.graphics.Color
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.collectAsState

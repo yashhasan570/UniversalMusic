@@ -21,7 +21,7 @@ import org.universalmusic.plugin_interfaces.plugin_apis.audio.AudioFormat
 import org.universalmusic.plugin_interfaces.plugin_apis.audio.AudioQuality
 import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
-import org.universalmusic.millennium.theme.MillenniumPalette
+import org.spotube.millennium.theme.MillenniumPalette
 
 @Serializable
 enum class Theme {

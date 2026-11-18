@@ -18,13 +18,13 @@
 package org.universalmusic.universalmusic.modules.shell
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumProgress
-import org.universalmusic.millennium.theme.millenniumSurface
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumProgress
+import org.spotube.millennium.theme.millenniumSurface
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.MillenniumTheme
 import androidx.compose.animation.AnimatedVisibilityScope
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionScope

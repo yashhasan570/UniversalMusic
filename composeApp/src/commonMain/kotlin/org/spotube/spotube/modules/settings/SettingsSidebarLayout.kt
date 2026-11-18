@@ -18,15 +18,15 @@
 package org.universalmusic.universalmusic.modules.settings
 
 
-import org.universalmusic.millennium.composables.MillenniumCircularProgress
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumSidebarItem
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumCircularProgress
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumSidebarItem
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column

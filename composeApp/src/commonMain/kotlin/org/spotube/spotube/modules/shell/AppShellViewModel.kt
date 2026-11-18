@@ -19,7 +19,7 @@ package org.universalmusic.universalmusic.modules.shell
 
 
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.runtime.Composable
 import androidx.lifecycle.ViewModel
 import androidx.compose.ui.unit.Dp

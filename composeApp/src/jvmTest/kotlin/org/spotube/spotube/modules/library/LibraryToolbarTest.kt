@@ -30,7 +30,7 @@ import kotlinx.coroutines.test.resetMain
 import kotlinx.coroutines.test.runCurrent
 import kotlinx.coroutines.test.runTest
 import kotlinx.coroutines.test.setMain
-import org.universalmusic.millennium.composables.MillenniumTopAppBar
+import org.spotube.millennium.composables.MillenniumTopAppBar
 import kotlin.test.AfterTest
 import kotlin.test.BeforeTest
 import kotlin.test.Test

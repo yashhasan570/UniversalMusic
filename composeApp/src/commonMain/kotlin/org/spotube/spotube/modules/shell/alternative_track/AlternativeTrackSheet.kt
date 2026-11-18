@@ -21,7 +21,7 @@ package org.universalmusic.universalmusic.modules.shell.alternative_track
 
 import androidx.compose.foundation.layout.Box
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp

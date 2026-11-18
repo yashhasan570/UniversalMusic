@@ -22,9 +22,9 @@ import androidx.compose.runtime.Composable
 import com.composeunstyled.Text
 import com.mikepenz.markdown.m3.Markdown
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumAlertDialog
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumAlertDialog
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.app_update_dialog_no_notes
 import universalmusic.composeapp.generated.resources.app_update_dialog_title

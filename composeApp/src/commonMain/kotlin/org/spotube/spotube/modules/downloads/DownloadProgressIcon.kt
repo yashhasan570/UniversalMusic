@@ -18,7 +18,7 @@
 package org.universalmusic.universalmusic.modules.downloads
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIcon
 import androidx.compose.animation.core.animateFloatAsState
 import androidx.compose.foundation.Canvas
 import androidx.compose.foundation.background

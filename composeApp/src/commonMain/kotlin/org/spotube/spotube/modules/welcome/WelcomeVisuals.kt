@@ -30,7 +30,7 @@ import com.composeunstyled.Text
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import org.jetbrains.compose.resources.Font
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.MillenniumTheme
 import universalmusic.composeapp.generated.resources.*
 
 /**

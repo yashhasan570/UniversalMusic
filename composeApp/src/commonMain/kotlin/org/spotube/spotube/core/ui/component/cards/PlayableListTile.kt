@@ -34,14 +34,14 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxMusic
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxPause
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxPlay
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumListTile
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumBevelBrush
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumListTile
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import universalmusic.composeapp.generated.resources.*
 
 @OptIn(ExperimentalSharedTransitionApi::class)

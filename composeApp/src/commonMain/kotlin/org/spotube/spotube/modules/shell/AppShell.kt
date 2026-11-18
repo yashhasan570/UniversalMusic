@@ -77,10 +77,10 @@ import org.universalmusic.universalmusic.modules.shell.player_queue.QueueSheet
 import kotlinx.coroutines.launch
 import org.koin.compose.koinInject
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumSnackbarHost
-import org.universalmusic.millennium.composables.MillenniumSnackbarHostState
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumSnackbarHost
+import org.spotube.millennium.composables.MillenniumSnackbarHostState
+import org.spotube.millennium.theme.MillenniumTheme
 
 val LocalAppShellBottomInset = staticCompositionLocalOf { 0.dp }
 

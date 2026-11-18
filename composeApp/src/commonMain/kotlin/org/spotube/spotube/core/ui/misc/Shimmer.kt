@@ -42,8 +42,8 @@ import androidx.compose.ui.unit.TextUnit
 import com.valentinilk.shimmer.ShimmerBounds
 import com.valentinilk.shimmer.rememberShimmer
 import com.valentinilk.shimmer.shimmer
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumBevelBrush
 
 val LocalSkeletonLoading = compositionLocalOf { false }
 

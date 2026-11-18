@@ -18,10 +18,10 @@
 package org.universalmusic.universalmusic.core.ui.component
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
 import com.composeunstyled.SheetDetent
 import com.composeunstyled.rememberModalBottomSheetState
 import androidx.compose.foundation.clickable

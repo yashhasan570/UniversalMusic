@@ -17,7 +17,7 @@
 
 package org.universalmusic.universalmusic.modules.jam
 
-import org.universalmusic.millennium.composables.MillenniumDropdownMenuItem
+import org.spotube.millennium.composables.MillenniumDropdownMenuItem
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxUserRemove
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxForbidden
 import androidx.compose.foundation.Canvas
@@ -68,21 +68,21 @@ import org.universalmusic.universalmusic.resources.iconsax.Iconsax
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxSetting2
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumSegmentedButton
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonDefaults
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonRow
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumTextField
-import org.universalmusic.millennium.composables.MillenniumTooltip
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumBevelBrush
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumSegmentedButton
+import org.spotube.millennium.composables.MillenniumSegmentedButtonDefaults
+import org.spotube.millennium.composables.MillenniumSegmentedButtonRow
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumTooltip
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import universalmusic.composeapp.generated.resources.*
 
 @Composable
@@ -439,7 +439,7 @@ internal fun SessionPanel(
                     }
                     if (participant.canModerate) {
                         // Keep destructive moderation out of the participant's primary row.
-                        org.universalmusic.millennium.composables.MillenniumDropdownMenu(
+                        org.spotube.millennium.composables.MillenniumDropdownMenu(
                             expanded = participant.menuExpanded,
                             onExpandedChange = { expanded -> onMenuChange(if (expanded) participant.id else null) },
                             anchor = {

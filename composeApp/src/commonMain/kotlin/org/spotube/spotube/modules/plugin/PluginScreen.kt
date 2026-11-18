@@ -17,17 +17,17 @@
 
 package org.universalmusic.universalmusic.modules.plugin
 
-import org.universalmusic.millennium.composables.MillenniumCircularProgress
-import org.universalmusic.millennium.composables.MillenniumDotsLoader
-import org.universalmusic.millennium.composables.MillenniumSpokeSpinner
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumSegmentedButton
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonDefaults
-import org.universalmusic.millennium.composables.MillenniumSegmentedButtonRow
-import org.universalmusic.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumCircularProgress
+import org.spotube.millennium.composables.MillenniumDotsLoader
+import org.spotube.millennium.composables.MillenniumSpokeSpinner
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumSegmentedButton
+import org.spotube.millennium.composables.MillenniumSegmentedButtonDefaults
+import org.spotube.millennium.composables.MillenniumSegmentedButtonRow
+import org.spotube.millennium.composables.MillenniumTextField
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement

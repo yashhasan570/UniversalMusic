@@ -17,7 +17,7 @@
 
 package org.universalmusic.universalmusic.modules.update
 
-import org.universalmusic.millennium.composables.MillenniumAlertDialog
+import org.spotube.millennium.composables.MillenniumAlertDialog
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.WindowInsets
@@ -32,8 +32,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import com.mikepenz.markdown.m3.Markdown
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.plugin_update_dialog_current_version
 import universalmusic.composeapp.generated.resources.plugin_update_dialog_no_notes

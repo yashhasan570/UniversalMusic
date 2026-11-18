@@ -19,7 +19,7 @@ package org.universalmusic.universalmusic.modules.settings.components
 
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumListTile
+import org.spotube.millennium.composables.MillenniumListTile
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 

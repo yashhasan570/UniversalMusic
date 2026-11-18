@@ -17,12 +17,12 @@
 
 package org.universalmusic.universalmusic.modules.support
 
-import org.universalmusic.millennium.composables.MillenniumDialogHeader
-import org.universalmusic.millennium.composables.MillenniumDialogTitle
-import org.universalmusic.millennium.composables.MillenniumDialogClose
-import org.universalmusic.millennium.composables.MillenniumDialogBody
-import org.universalmusic.millennium.composables.MillenniumDialogDescription
-import org.universalmusic.millennium.composables.MillenniumDialogFooter
+import org.spotube.millennium.composables.MillenniumDialogHeader
+import org.spotube.millennium.composables.MillenniumDialogTitle
+import org.spotube.millennium.composables.MillenniumDialogClose
+import org.spotube.millennium.composables.MillenniumDialogBody
+import org.spotube.millennium.composables.MillenniumDialogDescription
+import org.spotube.millennium.composables.MillenniumDialogFooter
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -43,10 +43,10 @@ import org.universalmusic.universalmusic.resources.iconsax.BrandPatreon
 import org.universalmusic.universalmusic.resources.iconsax.Iconsax
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumIcon
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.support_dialog_dismiss
 import universalmusic.composeapp.generated.resources.support_dialog_message

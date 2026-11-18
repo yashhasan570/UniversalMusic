@@ -16,6 +16,15 @@ DELETE = ["CHANGELOG.md", "CODE_OF_CONDUCT.md", "CONTRIBUTION.md", "PRIVACY_POLI
 
 
 def sweep(t):
+    # External published artifacts keep their upstream coordinates (resolvable
+    # from Maven Central; nothing publishes under the rebranded ids):
+    PROTECT = [
+        ("org.spotube.gradle-plugin", "ORGSPOTUBE_PLUGIN_X"),
+        ("org.spotube.vlcj-bundler", "ORGSPOTUBE_VLCJ_X"),
+        ("org.spotube.millennium", "ORGSPOTUBE_MILL_X"),
+    ]
+    for a, b in PROTECT:
+        t = t.replace(a, b)
     t = t.replace("KRTirtho/spotube", "yashhasan570/UniversalMusic")
     t = t.replace("KRTirtho", "yashhasan570")
     t = t.replace('val bundleId = "org.spotube.spotube"', 'val bundleId = "com.universalmusic.app"')
@@ -24,6 +33,8 @@ def sweep(t):
     t = re.sub(r"spotube(?=[a-z0-9])", "universalmusic", t)
     t = re.sub(r"\bSpotube\b", "UniversalMusic", t)
     t = re.sub(r"\bspotube\b", "universalmusic", t)
+    for a, b in PROTECT:
+        t = t.replace(b, a)
     return t
 
 

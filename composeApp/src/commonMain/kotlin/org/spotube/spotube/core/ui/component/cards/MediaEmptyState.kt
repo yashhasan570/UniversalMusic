@@ -19,10 +19,10 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.composeunstyled.Text
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumBevelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.millenniumSurface
 
 @Composable
 internal fun MediaEmptyState(

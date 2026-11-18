@@ -46,8 +46,8 @@ import org.universalmusic.universalmusic.resources.iconsax.PhosphorDatabaseDuoto
 import org.universalmusic.universalmusic.resources.iconsax.User
 import okio.Path
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumSeparator
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.common_cancel
 import universalmusic.composeapp.generated.resources.common_close

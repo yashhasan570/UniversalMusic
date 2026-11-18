@@ -55,11 +55,11 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxMusicLibrary
 import org.jetbrains.compose.resources.StringResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumCard
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumCard
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.theme.MillenniumTheme
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.no_metadata_plugin_action_install
 import universalmusic.composeapp.generated.resources.no_metadata_plugin_action_local

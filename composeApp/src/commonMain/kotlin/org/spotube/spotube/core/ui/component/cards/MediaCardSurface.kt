@@ -27,9 +27,9 @@ import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.graphicsLayer
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.unit.dp
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumActionPointer
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumActionPointer
+import org.spotube.millennium.theme.millenniumSurface
 
 /** Interaction state is presentation-only; all navigation/playback stays in event callbacks. */
 @Composable

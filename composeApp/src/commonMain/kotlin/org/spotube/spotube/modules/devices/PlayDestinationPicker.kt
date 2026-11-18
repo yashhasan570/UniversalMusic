@@ -18,16 +18,16 @@
 package org.universalmusic.universalmusic.modules.devices
 
 
-import org.universalmusic.millennium.composables.MillenniumDialogHeader
-import org.universalmusic.millennium.composables.MillenniumDialogTitle
-import org.universalmusic.millennium.composables.MillenniumDialogClose
-import org.universalmusic.millennium.composables.MillenniumDialogBody
-import org.universalmusic.millennium.composables.MillenniumDialogFooter
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumListTile
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDialogHeader
+import org.spotube.millennium.composables.MillenniumDialogTitle
+import org.spotube.millennium.composables.MillenniumDialogClose
+import org.spotube.millennium.composables.MillenniumDialogBody
+import org.spotube.millennium.composables.MillenniumDialogFooter
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumListTile
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth

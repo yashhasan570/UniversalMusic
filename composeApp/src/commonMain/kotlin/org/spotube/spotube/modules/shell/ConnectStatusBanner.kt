@@ -42,8 +42,8 @@ import compose.icons.feathericons.ChevronRight
 import org.jetbrains.compose.resources.pluralStringResource
 import org.jetbrains.compose.resources.stringResource
 import org.koin.compose.viewmodel.koinViewModel
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.theme.MillenniumTheme
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.theme.MillenniumTheme
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import universalmusic.composeapp.generated.resources.Res
 import universalmusic.composeapp.generated.resources.connect_jam_hosting

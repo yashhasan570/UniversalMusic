@@ -49,12 +49,12 @@ import org.universalmusic.universalmusic.resources.iconsax.IconsaxBoxAdd
 import org.universalmusic.universalmusic.resources.iconsax.IconsaxInformation
 import okio.Path
 import org.jetbrains.compose.resources.stringResource
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 
 // Shared building blocks for the plugin dialogs/sheets so they all read as one family and
 // match the panel/tile language used by the plugin cards and the rest of the app.

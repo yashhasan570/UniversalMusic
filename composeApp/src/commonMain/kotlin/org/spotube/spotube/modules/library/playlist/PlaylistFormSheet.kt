@@ -19,12 +19,12 @@ package org.universalmusic.universalmusic.modules.library.playlist
 
 import org.universalmusic.universalmusic.core.ui.component.AdaptiveDialogBottomSheet
 import androidx.compose.foundation.clickable
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumDialog
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
-import org.universalmusic.millennium.composables.MillenniumSwitch
-import org.universalmusic.millennium.composables.MillenniumTextField
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.MillenniumSwitch
+import org.spotube.millennium.composables.MillenniumTextField
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
@@ -41,7 +41,7 @@ import com.composeunstyled.SheetDetent
 import com.composeunstyled.Text
 import com.composeunstyled.rememberModalBottomSheetState
 import com.composeunstyled.currentWindowWidthBreakpoint
-import org.universalmusic.millennium.adaptive.WindowBreakpoints
+import org.spotube.millennium.adaptive.WindowBreakpoints
 import androidx.compose.foundation.text.input.TextFieldState
 import androidx.compose.foundation.text.input.rememberTextFieldState
 import androidx.compose.runtime.Composable

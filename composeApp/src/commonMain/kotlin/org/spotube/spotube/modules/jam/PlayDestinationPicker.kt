@@ -17,12 +17,12 @@
 
 package org.universalmusic.universalmusic.modules.jam
 
-import org.universalmusic.millennium.composables.MillenniumAlertDialog
+import org.spotube.millennium.composables.MillenniumAlertDialog
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumButton
-import org.universalmusic.millennium.composables.MillenniumButtonStyle
-import org.universalmusic.millennium.composables.MillenniumDialog
+import org.spotube.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButtonStyle
+import org.spotube.millennium.composables.MillenniumDialog
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Row
 

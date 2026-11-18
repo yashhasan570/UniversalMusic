@@ -40,16 +40,16 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumIcon
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumSeparator
-import org.universalmusic.millennium.composables.MillenniumTooltip
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.gelBrush
-import org.universalmusic.millennium.theme.millenniumBevelBrush
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumSeparator
+import org.spotube.millennium.composables.MillenniumTooltip
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.gelBrush
+import org.spotube.millennium.theme.millenniumBevelBrush
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
 import org.universalmusic.universalmusic.modules.plugin.PluginAbility
 

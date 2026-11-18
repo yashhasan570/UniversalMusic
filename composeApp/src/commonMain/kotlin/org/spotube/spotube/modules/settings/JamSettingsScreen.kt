@@ -9,7 +9,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.widthIn
 import androidx.compose.foundation.lazy.LazyColumn
 import com.composeunstyled.Text
-import org.universalmusic.millennium.composables.MillenniumButton
+import org.spotube.millennium.composables.MillenniumButton
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember

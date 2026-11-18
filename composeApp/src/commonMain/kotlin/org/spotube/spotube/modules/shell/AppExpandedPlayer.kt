@@ -18,7 +18,7 @@
 package org.universalmusic.universalmusic.modules.shell
 
 
-import org.universalmusic.millennium.composables.MillenniumIcon
+import org.spotube.millennium.composables.MillenniumIcon
 import androidx.compose.animation.AnimatedVisibilityScope
 import androidx.compose.animation.ExperimentalSharedTransitionApi
 import androidx.compose.animation.SharedTransitionScope
@@ -47,16 +47,16 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
 
 import org.universalmusic.universalmusic.core.ui.theming.AppTheme
-import org.universalmusic.millennium.composables.MillenniumSnackbarHost
-import org.universalmusic.millennium.composables.MillenniumSnackbarHostState
-import org.universalmusic.millennium.composables.MillenniumIconButton
-import org.universalmusic.millennium.composables.MillenniumIconButtonStyle
-import org.universalmusic.millennium.composables.MillenniumModalBottomSheet
-import org.universalmusic.millennium.composables.MillenniumCard
-import org.universalmusic.millennium.composables.MillenniumSlider
-import org.universalmusic.millennium.theme.MillenniumTheme
-import org.universalmusic.millennium.theme.millenniumPanelBrush
-import org.universalmusic.millennium.theme.millenniumSurface
+import org.spotube.millennium.composables.MillenniumSnackbarHost
+import org.spotube.millennium.composables.MillenniumSnackbarHostState
+import org.spotube.millennium.composables.MillenniumIconButton
+import org.spotube.millennium.composables.MillenniumIconButtonStyle
+import org.spotube.millennium.composables.MillenniumModalBottomSheet
+import org.spotube.millennium.composables.MillenniumCard
+import org.spotube.millennium.composables.MillenniumSlider
+import org.spotube.millennium.theme.MillenniumTheme
+import org.spotube.millennium.theme.millenniumPanelBrush
+import org.spotube.millennium.theme.millenniumSurface
 import com.composeunstyled.SheetDetent
 import com.composeunstyled.rememberModalBottomSheetState
 
