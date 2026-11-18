@@ -76,7 +76,7 @@ jobs:
   prepare-deps:
     name: Prepare Dependencies
     needs: build-webview-natives
-    runs-on: macos-latest
+    runs-on: macos-13
     steps:
       - name: Checkout ComposeNativeWebview
         uses: actions/checkout@v7
