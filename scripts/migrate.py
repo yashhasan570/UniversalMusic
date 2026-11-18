@@ -61,6 +61,11 @@ def main():
         nb = re.sub(r"Spotube", "UniversalMusic", nb)
         if nb != p.name:
             p.rename(p.with_name(nb))
+    settings = Path("settings.gradle.kts")
+    if settings.exists():
+        lines = [l for l in settings.read_text().splitlines(True)
+                 if 'include(":js_plugin_example")' not in l]
+        settings.write_text("".join(lines))
     readme = Path("README.md")
     if readme.exists() and not readme.read_text().startswith("# Universal Music"):
         print("README drifted - rewrite needed")

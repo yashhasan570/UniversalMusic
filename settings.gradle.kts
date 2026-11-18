@@ -55,4 +55,3 @@ plugins {
 
 include(":composeApp")
 include(":plugin_interfaces")
-include(":js_plugin_example")
