@@ -1,4 +1,4 @@
-// Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+// Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
 //
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU Affero General Public License as published by

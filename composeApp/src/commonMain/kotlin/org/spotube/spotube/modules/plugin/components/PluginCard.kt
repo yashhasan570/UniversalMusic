@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -152,7 +152,7 @@ internal fun PluginCard(
     }
 }
 
-/** What the plugin does, in its ability colors, then who made it: "Audio · Universal Music Team". */
+/** What the plugin does, in its ability colors, then who made it: "Audio · UniversalMusic Team". */
 @Composable
 private fun PluginRowMeta(item: PluginListItem) {
     val plugin = item.plugin

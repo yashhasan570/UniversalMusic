@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -30,7 +30,7 @@ import okio.SYSTEM
 @Suppress("EXPECT_ACTUAL_CLASSIFIERS_ARE_IN_BETA_WARNING")
 class Database(val paths: Paths) {
     /**
-     * True when Universal Music had already written its own data before this process started. Captured
+     * True when UniversalMusic had already written its own data before this process started. Captured
      * synchronously at construction time — the earliest point, before any eager service can
      * create a fresh store — so it reliably tells a brand-new install apart from an upgrade of
      * an existing one (used to skip the first-run onboarding on upgrades).

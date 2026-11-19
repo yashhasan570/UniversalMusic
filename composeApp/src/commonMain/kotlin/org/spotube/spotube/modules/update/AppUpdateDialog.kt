@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -32,7 +32,7 @@ import universalmusic.composeapp.generated.resources.update_action_ignore
 import universalmusic.composeapp.generated.resources.update_action_update
 
 /**
- * Prompts the user that a newer Universal Music release is available on GitHub. [onUpdate]
+ * Prompts the user that a newer UniversalMusic release is available on GitHub. [onUpdate]
  * should take the user to the downloads page; [onIgnore] persistently silences this
  * specific release tag so the check moves on to the next newer one.
  */

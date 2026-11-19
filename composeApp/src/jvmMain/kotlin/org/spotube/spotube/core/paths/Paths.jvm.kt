@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -22,18 +22,18 @@ import net.harawata.appdirs.AppDirsFactory
 @Suppress("EXPECT_ACTUAL_CLASSIFIERS_ARE_IN_BETA_WARNING")
 actual class Paths {
     actual fun getApplicationCacheDirPath(): String {
-        return AppDirsFactory.getInstance().getUserCacheDir("Universal Music", null, "Universal Music")
+        return AppDirsFactory.getInstance().getUserCacheDir("UniversalMusic", null, "UniversalMusic")
     }
 
     actual fun getApplicationDataDirPath(): String {
-        return AppDirsFactory.getInstance().getUserDataDir("Universal Music", null, "Universal Music")
+        return AppDirsFactory.getInstance().getUserDataDir("UniversalMusic", null, "UniversalMusic")
     }
 
     actual fun getUserDownloadsDirPath(): String {
-        return AppDirsFactory.getInstance().getUserDownloadsDir("Universal Music", null, null)
+        return AppDirsFactory.getInstance().getUserDownloadsDir("UniversalMusic", null, null)
     }
 
     actual fun getMusicCacheDirPath(): String {
-        return AppDirsFactory.getInstance().getUserCacheDir("Universal Music", null, "Universal Music") + "/music_cache"
+        return AppDirsFactory.getInstance().getUserCacheDir("UniversalMusic", null, "UniversalMusic") + "/music_cache"
     }
 }

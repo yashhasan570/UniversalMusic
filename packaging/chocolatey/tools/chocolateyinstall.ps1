@@ -1,14 +1,14 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$fileLocation = Join-Path $toolsDir 'Universal Music-windows-x86_64-setup.exe'
+$fileLocation = Join-Path $toolsDir 'UniversalMusic-windows-x86_64-setup.exe'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   fileType      = 'exe'
   file          = $fileLocation
 
-  softwareName  = 'Universal Music*'
+  softwareName  = 'UniversalMusic*'
   silentArgs    = '/S' # NSIS (electron-builder one-click, per-user)
   validExitCodes= @(0)
 }

@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -41,7 +41,7 @@ import kotlinx.coroutines.launch
 import kotlin.random.Random
 
 /**
- * Advertises this device on the local network via DNS-SD so that other Universal Music
+ * Advertises this device on the local network via DNS-SD so that other UniversalMusic
  * instances can discover and control it. Advertises only while the
  * "Allow remote control" setting is enabled and the local playback server is
  * listening on the LAN (0.0.0.0).
@@ -104,7 +104,7 @@ class RemoteControlService(
             settingsRepository.userSettings.value.remoteControlDeviceId
         }
         val configured = settingsRepository.userSettings.value.remoteControlDeviceName
-        return configured.ifBlank { "Universal Music-${deviceId.take(6)}" }
+        return configured.ifBlank { "UniversalMusic-${deviceId.take(6)}" }
     }
 
     /**
@@ -127,7 +127,7 @@ class RemoteControlService(
     private suspend fun registerLoop(name: String, port: Int) {
         val deviceId = resolveDeviceId()
         _localDeviceId.value = deviceId
-        val serviceName = name.ifBlank { "Universal Music-${deviceId.take(6)}" }
+        val serviceName = name.ifBlank { "UniversalMusic-${deviceId.take(6)}" }
 
         var attempt = 0
         while (advertisedService == null && coroutineContext.isActive) {

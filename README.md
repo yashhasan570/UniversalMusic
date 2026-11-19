@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="600" src="assets/branding/universalmusic_banner.png" alt="Universal Music Logo">
+  <img width="600" src="assets/branding/universalmusic_banner.png" alt="UniversalMusic Logo">
 
 A cross-platform extensible open-source music streaming platform.<br>
 Bring your own music metadata/playlist/audio-source with plugins created by community or by
@@ -17,8 +17,8 @@ yourself. A small step towards the decentralized music streaming era!
 
 ---
 
-![Universal Music Desktop](assets/feature-graphics/readme-hero.png)
-![Universal Music Mobile](assets/feature-graphics/readme-mobile.png)
+![UniversalMusic Desktop](assets/feature-graphics/readme-hero.png)
+![UniversalMusic Mobile](assets/feature-graphics/readme-mobile.png)
 
 ****</div>
 
@@ -37,12 +37,12 @@ yourself. A small step towards the decentralized music streaming era!
 
 ### ⬇️ Download
 
-Download Universal Music from the Official Website: https://universalmusic.cc
+Download UniversalMusic from the Official Website: https://universalmusic.cc
 
 ### 🔄 Nightly Builds
 
 Grab the latest nightly builds of
-Universal Music [from the Offical Website](https://universalmusic.cc/downloads/nightly).
+UniversalMusic [from the Offical Website](https://universalmusic.cc/downloads/nightly).
 
 <details>
 <summary>
@@ -51,7 +51,7 @@ Universal Music [from the Offical Website](https://universalmusic.cc/downloads/n
 <hr/>
 <a href="https://github.com/team-universalmusic/universalmusic/actions"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/yashhasan570/UniversalMusic/universalmusic-release-binary.yml?+label=Build%20Status"></a>
 
-Universal Music is a Compose Multiplatform app.
+UniversalMusic is a Compose Multiplatform app.
 
 ### 1. Prerequisites
 
@@ -219,7 +219,7 @@ Run [`universalmusic-release-binary.yml`](.github/workflows/universalmusic-relea
 **Plugins**
 - [Zipline](https://github.com/cashapp/zipline): runs the JS plugins
 
-## 👥 The Universal Music team
+## 👥 The UniversalMusic team
 
 - [Kingkor Roy Tirtho](https://github.com/team-universalmusic) - The Founder, Maintainer and Lead Developer
 - [Owen Connor](https://github.com/owencz1998) - The Cool Discord Moderator
@@ -228,6 +228,6 @@ Run [`universalmusic-release-binary.yml`](.github/workflows/universalmusic-relea
 
 ## 💼 License
 
-Universal Music is open source and licensed under the [AGPL-3.0-or-later](/LICENSE) License.
+UniversalMusic is open source and licensed under the [AGPL-3.0-or-later](/LICENSE) License.
 
-<div align="center"><h4>© Copyright Universal Music 2026</h4></div>
+<div align="center"><h4>© Copyright UniversalMusic 2026</h4></div>

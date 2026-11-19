@@ -2,9 +2,9 @@ cask "universalmusic" do
   version "{{version}}"
   sha256 "{{artifacts.macosArm64.sha256}}"
 
-  url "{{repositoryUrl}}/releases/download/v#{version}/Universal Music-macos-apple-silicon.dmg",
+  url "{{repositoryUrl}}/releases/download/v#{version}/UniversalMusic-macos-apple-silicon.dmg",
       verified: "github.com/team-universalmusic/universalmusic/"
-  name "Universal Music"
+  name "UniversalMusic"
   desc "Open source, plugin powered music streaming client"
   homepage "https://universalmusic.cc/"
 
@@ -16,11 +16,11 @@ cask "universalmusic" do
   # Intel macs aren't supported: GraalVM native-image can't cross-compile the DMG
   depends_on arch: :arm64
 
-  app "Universal Music.app"
+  app "UniversalMusic.app"
 
   zap trash: [
-    "~/Library/Application Support/Universal Music",
-    "~/Library/Caches/Universal Music",
+    "~/Library/Application Support/UniversalMusic",
+    "~/Library/Caches/UniversalMusic",
     "~/Library/Preferences/org.universalmusic.universalmusic.plist",
     "~/Library/Saved Application State/org.universalmusic.universalmusic.savedState",
     "~/Library/WebKit/org.universalmusic.universalmusic",

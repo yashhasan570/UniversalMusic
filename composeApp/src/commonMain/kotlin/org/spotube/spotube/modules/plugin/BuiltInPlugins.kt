@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -27,7 +27,7 @@ val NEWPIPE_YOUTUBE_BUILT_IN_PLUGIN = PluginEntry(
     version = "0.1.0",
     apiVersion = PLUGIN_API_VERSION,
     description = "NewPipe's YouTube plugin for fetching audio streams.",
-    author = "Universal Music Team",
+    author = "UniversalMusic Team",
     capabilities = listOf(
         PluginCapability.NETWORK_REQUESTS,
         PluginCapability.PERSISTENT_STORAGE
@@ -42,7 +42,7 @@ val LRCLIB_BUILT_IN_PLUGIN = PluginEntry(
     version = "0.1.0",
     apiVersion = PLUGIN_API_VERSION,
     description = "LRCLib Lyrics plugin for fetching lyrics.",
-    author = "Universal Music Team",
+    author = "UniversalMusic Team",
     capabilities = listOf(
         PluginCapability.NETWORK_REQUESTS),
     abilities = listOf(PluginAbility.LYRICS),

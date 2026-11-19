@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Name=Universal Music
+Name=UniversalMusic
 GenericName=Music Player
 Comment=Open source, plugin powered music streaming client
 Exec=universalmusic %U

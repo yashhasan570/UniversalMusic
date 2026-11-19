@@ -1,4 +1,4 @@
-/* Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+/* Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  * SPDX-License-Identifier: AGPL-3.0-or-later
  */
 package org.universalmusic.universalmusic.modules.library.local_tracks

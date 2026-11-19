@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -100,7 +100,7 @@ class PlaybackService : MediaLibraryService(), KoinComponent {
         // Short-lived placeholder until Media3 posts the playback notification. No localized text:
         // loading it here would block the main thread (see createNotificationChannel).
         val notification = NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("Universal Music")
+            .setContentTitle("UniversalMusic")
             .setSmallIcon(R.drawable.ic_stat_universalmusic)
             .setContentIntent(sessionActivity)
             .setOngoing(true)
@@ -146,7 +146,7 @@ class PlaybackService : MediaLibraryService(), KoinComponent {
                 setShowBadge(false)
             }
 
-        manager.createNotificationChannel(channel("Universal Music"))
+        manager.createNotificationChannel(channel("UniversalMusic"))
         serviceScope.launch {
             // Re-creating a channel with the same ID updates its name and description.
             manager.createNotificationChannel(

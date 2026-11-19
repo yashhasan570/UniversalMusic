@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -44,24 +44,6 @@ plugins {
     alias(libs.plugins.mokkery)
     alias(libs.plugins.neucleusFramework)
     kotlin("plugin.atomicfu") version libs.versions.kotlin
-}
-
-abstract class CargoBuildMutex :
-    org.gradle.api.services.BuildService<org.gradle.api.services.BuildServiceParameters.None>
-
-val cargoBuildMutex = gradle.sharedServices.registerIfAbsent(
-    "cargoBuildMutex",
-    CargoBuildMutex::class
-) {
-    maxParallelUsages.set(1)
-}
-
-// Gobley starts a separate Cargo process per target. Those processes share the crate's target
-// directory, and concurrent builds can remove build-script output files while another task reads
-// them (for example quote/.../output). Keep Cargo tasks sequential; Cargo still parallelizes each
-// individual build internally.
-tasks.matching { it.name.startsWith("cargoBuild") }.configureEach {
-    usesService(cargoBuildMutex)
 }
 
 val bundleId = "com.universalmusic.app"
@@ -125,8 +107,8 @@ listOf("linux", "aur", "flatpak", "winget", "chocolatey", "homebrew").forEach { 
             mapOf(
                 "linuxX86_64" to "universalmusic-linux-$packagingVersion-x86_64.tar.xz",
                 "linuxAarch64" to "universalmusic-linux-$packagingVersion-aarch64.tar.xz",
-                "windowsX64" to "Universal Music-windows-x86_64-setup.exe",
-                "macosArm64" to "Universal Music-macos-apple-silicon.dmg",
+                "windowsX64" to "UniversalMusic-windows-x86_64-setup.exe",
+                "macosArm64" to "UniversalMusic-macos-apple-silicon.dmg",
             )
         )
         artifactsDir.set(packagingArtifactsDir)
@@ -504,7 +486,7 @@ nucleus.application {
         linux {
             iconFile.set(project.file("$desktopIconDir/icon.png"))
             modules("jdk.security.auth")
-            debMaintainer = "Team Universal Music <team.universalmusic@proton.me>"
+            debMaintainer = "Team UniversalMusic <team.universalmusic@proton.me>"
             rpmLicenseType = "AGPL-3.0-or-later"
             // deb/rpm use the distro's shared libraries (only the AppImage bundles VLC). VLC is not
             // bundled on Linux otherwise, the webview needs WebKitGTK 4.1, and the window/tray/MPRIS

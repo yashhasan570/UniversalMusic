@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -62,8 +62,8 @@ class RealLRCLibLyricsAPI : LyricsAPI, KoinComponent {
             }
             defaultRequest {
                 url("https://lrclib.net/api/get")
-                // TODO: Add the actual version of Universal Music instead of hardcoding it
-                userAgent("Universal Music/v6.0.0 LRCLib Lyric Plugin")
+                // TODO: Add the actual version of UniversalMusic instead of hardcoding it
+                userAgent("UniversalMusic/v6.0.0 LRCLib Lyric Plugin")
             }
         }
     }

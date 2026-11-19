@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -270,8 +270,8 @@ class DevicesViewModel(
             try {
                 val settings = settingsProvider.settingsState.value
                 val deviceId = settings?.remoteControlDeviceId ?: ""
-                val deviceName = settings?.remoteControlDeviceName?.ifBlank { "Universal Music Controller" }
-                    ?: "Universal Music Controller"
+                val deviceName = settings?.remoteControlDeviceName?.ifBlank { "UniversalMusic Controller" }
+                    ?: "UniversalMusic Controller"
 
                 remoteControlClient.connect(
                     host = device.host,

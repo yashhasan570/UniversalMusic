@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2026 Kingkor Roy Tirtho and Universal Music Contributors
+ * Copyright (C) 2026 Kingkor Roy Tirtho and UniversalMusic Contributors
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as published by
@@ -103,7 +103,7 @@ mavenPublishing {
     )
     pom {
         name = "plugin_interfaces"
-        description = "Plugin interfaces for Universal Music"
+        description = "Plugin interfaces for UniversalMusic"
         inceptionYear = "2026"
         url = "https://github.com/team-universalmusic/universalmusic"
         licenses {
@@ -116,7 +116,7 @@ mavenPublishing {
         developers {
             developer {
                 id = "team-universalmusic"
-                name = "Team Universal Music"
+                name = "Team UniversalMusic"
                 url = "https://github.com/team-universalmusic/"
                 email = "team.universalmusic@proton.me"
             }

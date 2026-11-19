@@ -1,7 +1,7 @@
 TEAM_ID=
 
-PRODUCT_NAME=Universal Music
-PRODUCT_BUNDLE_IDENTIFIER=org.universalmusic.universalmusic.Universal Music$(TEAM_ID)
+PRODUCT_NAME=UniversalMusic
+PRODUCT_BUNDLE_IDENTIFIER=org.universalmusic.universalmusic.UniversalMusic$(TEAM_ID)
 
 CURRENT_PROJECT_VERSION=1
 MARKETING_VERSION=1.0

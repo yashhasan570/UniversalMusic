@@ -1,7 +1,7 @@
 ﻿$ErrorActionPreference = 'Stop'; # stop on all errors
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
-  softwareName  = 'Universal Music*'
+  softwareName  = 'UniversalMusic*'
   fileType      = 'exe'
   validExitCodes= @(0)
 }
@@ -10,7 +10,7 @@ $packageArgs = @{
 
 if ($key.Count -eq 1) {
   $key | % {
-    # electron-builder writes UninstallString as "<dir>\Uninstall Universal Music.exe" /currentuser
+    # electron-builder writes UninstallString as "<dir>\Uninstall UniversalMusic.exe" /currentuser
     if ($_.UninstallString -match '^\s*"([^"]+)"\s*(.*)$') {
       $packageArgs['file'] = $Matches[1]
       $packageArgs['silentArgs'] = "$($Matches[2]) /S".Trim()
